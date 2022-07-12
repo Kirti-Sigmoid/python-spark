@@ -1,3 +1,8 @@
+# function should have more meaningful names
+# add more comments for better understanding of the code
+# you can separate your business logic with the presentation logic.(i.e separate your main logic in separate functions)
+
+
 from flask import Flask, app, request, jsonify
 from df_formation import new_df
 from pyspark.sql import SQLContext, SparkSession
